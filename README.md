@@ -29,6 +29,24 @@ By default the OpenMQTTGatway publishers every BT packact it receives, you can w
 
 # Feedback
 
-Flashing the sensors, working out the unique ID of each device is not simple, it took a few hours in total working out how to do it, and the range of the sensors mean at least two BLE receivers are need in an average home.
+## Pros
 
-The OpenMQTTGateway works well, although it's not simple to get it fully configured.
+* Low cost sensors
+* Tidy small sensors, easy to hide around the home
+
+## Cons
+
+* Flashing the sensors, working out the unique ID of each device is not simple, it took a few hours in total to get 5 sensors working
+* Sensors need labing as you go else it's not easy to see which is which
+* The low range of the sensors mean at least two BLE receivers are need in an average home
+
+## General
+
+* The OpenMQTTGateway works well, although it's not simple to get it fully configured.
+
+## Wishlist
+
+* Sensors that are pre-flashed ready to go
+* Sensors that are labelled
+* Proconfigure Gateway, with an easy way to set the WiFi details
+* Easy to configure Gateway whitelist
